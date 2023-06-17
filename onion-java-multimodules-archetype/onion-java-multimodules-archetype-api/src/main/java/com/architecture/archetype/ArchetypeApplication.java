@@ -11,15 +11,15 @@ import io.swagger.v3.oas.annotations.servers.Server;
 
 @SpringBootApplication
 @OpenAPIDefinition(info = @Info(
-        title = "OnBoarding API",
-        description = "Microservicio que expone las operaciones básicas para un usuario en la aplicación OnBoarding",
+        title = "Archetype Application API",
+        description = "Microservicio que expone las operaciones básicas para un usuario en la aplicación",
         version = "1.0.0",
         contact = @Contact(
-                email = "luis.forero@pragma.com.co", name = "Pragma S.A", url = "www.pragma.com.co"),
+                name = "Business", url = "www.business.com"),
         license = @License(name = "MIT", url = "https://opensource.org/licenses/MIT")),
         servers = @Server(
                 description = "Url Api Gateway. Reemplazar stage por dev, staging o pdn según corresponda.",
-                url = "https://h73euwasy3.execute-api.us-east-1.amazonaws.com/stage/onboarding/user"))
+                url = "https://host/stage/archetype/user"))
 public class ArchetypeApplication {
 
     public static void main(String[] args) {

@@ -11,19 +11,19 @@ import io.swagger.v3.oas.annotations.servers.Server;
 
 @SpringBootApplication
 @OpenAPIDefinition(info = @Info(
-        title = "OnBoarding API",
-        description = "Microservicio que expone las operaciones básicas para un usuario en la aplicación OnBoarding",
+        title = "Archetype Application API",
+        description = "Microservicio que expone las operaciones básicas para un usuario en la aplicación",
         version = "1.0.0",
         contact = @Contact(
-                name = "Pragma S.A", url = "www.pragma.com.co"),
+                name = "Business", url = "www.business.com"),
         license = @License(name = "MIT", url = "https://opensource.org/licenses/MIT")),
         servers = @Server(
                 description = "Url Api Gateway. Reemplazar stage por dev, staging o pdn según corresponda.",
-                url = "https://host/stage/onboarding/user"))
-public class OnboardingApplication {
+                url = "https://host/stage/archetype/user"))
+public class ArchetypeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OnboardingApplication.class, args);
+        SpringApplication.run(ArchetypeApplication.class, args);
     }
 
 }
