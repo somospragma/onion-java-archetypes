@@ -1,0 +1,5 @@
+rootProject.name = 'onion-java-multimodules-archetype'
+include 'onion-java-multimodules-archetype-api'
+include 'onion-java-multimodules-archetype-domain'
+include 'onion-java-multimodules-archetype-application'
+include 'onion-java-multimodules-archetype-infrastructure'
