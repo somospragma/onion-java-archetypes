@@ -4,17 +4,24 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-<!--     <parent> -->
-<!--         <groupId>com.architecture</groupId> -->
-<!--         <artifactId>onion-java-multimodules-archetype</artifactId> -->
-<!--         <version>1.0.0-SNAPSHOT</version> -->
-<!--         <relativePath>../pom.xml</relativePath> -->
-<!--     </parent> -->
+    <!-- <parent> -->
+    <!-- <groupId>com.architecture</groupId> -->
+    <!-- <artifactId>onion-java-multimodules-archetype</artifactId> -->
+    <!-- <version>1.0.0-SNAPSHOT</version> -->
+    <!-- <relativePath>../pom.xml</relativePath> -->
+    <!-- </parent> -->
 
     <groupId>com.architecture.domain</groupId>
     <artifactId>onion-java-multimodules-archetype-domain</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.surefire.plugin>2.12.4</maven.surefire.plugin>
+    </properties>
 
     <dependencies>
         <dependency>
