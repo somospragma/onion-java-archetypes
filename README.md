@@ -1,3 +1,7 @@
+
+![Logo](https://www.pragma.com.co/hubfs/pragma_theme2021/images/Header%20Logo.svg)
+##
+
 # onion-archetypes
 Onion Architecture Archetypes
 
