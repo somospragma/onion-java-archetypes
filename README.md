@@ -1,8 +1,9 @@
+# Onion Archetypes
 
-![Logo](https://www.pragma.com.co/hubfs/pragma_theme2021/images/Header%20Logo.svg)
+![Onion Architecture](onion-architecture.png)
+
 ##
 
-# onion-archetypes
 Onion Architecture Archetypes
 
 com.example.myapp  
@@ -22,3 +23,4 @@ com.example.myapp
     ├── controller  
     ├── dto  
     └── mapper  
+    
